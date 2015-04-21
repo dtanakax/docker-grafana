@@ -29,8 +29,9 @@ ENV ADMIN_USER              admin
 ENV ADMIN_PASSWORD          admin
 ENV ALLOW_SIGN_UP           False
 
+ENTRYPOINT ["./start.sh"]
+
 # Expose ports.
 EXPOSE 3000
 
-# Executing sh
-ENTRYPOINT ./start.sh
+CMD ["/opt/grafana/bin/grafana-server"]
