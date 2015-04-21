@@ -12,7 +12,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 RUN apt-get clean all
 
-RUN curl -k http://grafanarel.s3.amazonaws.com/builds/grafana-$GRAFANA_VERSION.x86_64.tar.gz >> grafana.tar.gz && \
+RUN curl -k http://grafanarel.s3.amazonaws.com/builds/grafana-$GRAFANA_VERSION.linux-x64.tar.gz >> grafana.tar.gz && \
     tar zxvf grafana.tar.gz && \
     mv -f /grafana-$GRAFANA_VERSION /opt/grafana && \
     rm -f grafana.tar.gz
