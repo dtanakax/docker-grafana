@@ -11,7 +11,7 @@ Base Docker Image
 説明
 ---------------------
 
-Grafana Dockerコンテナイメージです。
+Grafana Dockerコンテナ作成設定
 
 [Grafanaとは？](http://grafana.org/)  
 [Dockerとは？](https://docs.docker.com/)  
