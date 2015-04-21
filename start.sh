@@ -22,6 +22,4 @@ if [ "$1" = "/opt/grafana/bin/grafana-server" ]; then
   exec "$1" -homepath="/opt/grafana" -config="$CONFIG"
 else
   exec "$@"
-filse
-  exec "$@"
 fi
