@@ -1,4 +1,4 @@
-![grafana 2.0.0_beta3](https://img.shields.io/badge/grafana-2.0.0_beta3-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![grafana 2.0.2](https://img.shields.io/badge/grafana-2.0.2-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 docker-grafana
 =====================

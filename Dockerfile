@@ -5,7 +5,7 @@ FROM tanaka0323/debianjp:wheezy
 MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV GRAFANA_VERSION 2.0.1
+ENV GRAFANA_VERSION 2.0.2
 
 RUN apt-get update && \
     apt-get install -y curl && \
