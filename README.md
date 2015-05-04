@@ -16,14 +16,6 @@ Grafana Dockerコンテナ作成設定
 使用方法
 ---------------------
 
-git pull後に
-
-    $ cd docker-grafana
-
-イメージ作成
-
-    $ docker build -t dtanakax/grafana .
-
 起動
 
     $ docker run -p 3000:3000 -it dtanakax/grafana
