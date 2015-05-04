@@ -1,4 +1,4 @@
-![grafana 2.0.0_beta3](https://img.shields.io/badge/grafana-2.0.0_beta3-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 docker-grafana
 =====================
@@ -6,31 +6,19 @@ docker-grafana
 Base Docker Image
 ---------------------
 
-[tanaka0323/debianjp](https://bitbucket.org/tanaka0323/docker-debianjp)
+[dtanakax/debianjp:wheezy](https://registry.hub.docker.com/u/dtanakax/debianjp/)
 
 説明
 ---------------------
 
 Grafana Dockerコンテナ作成設定
 
-[Grafanaとは？](http://grafana.org/)  
-[Dockerとは？](https://docs.docker.com/)  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
-
 使用方法
 ---------------------
 
-git pull後に
-
-    $ cd docker-grafana
-
-イメージ作成
-
-    $ docker build -t tanaka0323/grafana .
-
 起動
 
-    $ docker run -p 3000:3000 -it tanaka0323/grafana
+    $ docker run -p 3000:3000 -it dtanakax/grafana
 
 環境変数
 --------------------------
@@ -46,13 +34,6 @@ git pull後に
 
     /data                  # データベース領域
     /opt/grafana/conf      # 設定ファイルディレクトリ
-
-Docker Composeでの使用方法
----------------------
-
-[Docker Composeとは](https://docs.docker.com/compose/)  
-
-[設定ファイル記述例](https://bitbucket.org/tanaka0323/compose-examples)
 
 License
 ---------------------
