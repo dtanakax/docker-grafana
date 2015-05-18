@@ -6,11 +6,6 @@ if [ "$1" = "/opt/grafana/bin/grafana-server" ]; then
 
   FIRSTRUN=/firstrun
   if [ ! -f $FIRSTRUN ]; then
-      if [ "$ALLOW_SIGN_UP" = "True" ]; then
-          ALLOW_SIGN_UP=true
-      else
-          ALLOW_SIGN_UP=false
-      fi
       sed -i -e "s|^data = data|data = /data|
                  s|^logs = data/log|logs = /data/log|
                  s/^mode = console, file/mode = console/

@@ -27,7 +27,7 @@ RUN chmod +x /start.sh
 # Environment variables
 ENV ADMIN_USER              admin
 ENV ADMIN_PASSWORD          admin
-ENV ALLOW_SIGN_UP           False
+ENV ALLOW_SIGN_UP           false
 
 ENTRYPOINT ["./start.sh"]
 
